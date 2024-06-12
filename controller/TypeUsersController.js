@@ -1,3 +1,4 @@
+//Controller tipo de usuario
 import { TypeUsersModel } from "../models/TypeUsersModel.js";
 
 export const getTypeUsers = async (req, res) => {

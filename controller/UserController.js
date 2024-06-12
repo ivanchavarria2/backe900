@@ -1,3 +1,4 @@
+//Controller usuario
 import { UserModel } from "../models/UserModel.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
