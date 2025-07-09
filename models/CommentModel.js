@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
-import { sequelize } from "../db/conexion.js";
+//import { sequelize } from "../db/conexion.js";
+import  sequelize  from "../db/conexion.js";
 import {UserModel}   from "./UserModel.js";
 
 //aqui se laque la llave 

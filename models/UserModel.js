@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
-import { sequelize } from "../db/conexion.js";
+//import { sequelize } from "../db/conexion.js";
+import  sequelize  from "../db/conexion.js";
 import { TypeUsersModel } from "./TypeUsersModel.js";
 
 export const UserModel = sequelize.define(

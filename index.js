@@ -4,8 +4,8 @@ import cors from "cors";
 import { PORT } from './config/config.js';
 import rotuerTypeUsers from './router/TypeUsersRouter.js';
 import  { RouterUsuer } from './router/UserRouter.js';
-///import { sequelize } from "./db/conexion.js";
-import Sequelize from 'sequelize'; // CAMBIA ESTA LÍNEA (quita las llaves)
+import  sequelize  from "./db/conexion.js";
+//import {Sequelize from} 'sequelize'; // CAMBIA ESTA LÍNEA (quita las llaves)
 import { RouterComment } from './router/CommentRouter.js';
 
 const _PORT = PORT || 3000;

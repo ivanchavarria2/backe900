@@ -11,4 +11,4 @@ export const sequelize = new Sequelize(
         dialect: DB_CONNECTION
     }
 );
-////hice cambio aqui 
+////hice cambio
